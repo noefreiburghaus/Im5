@@ -1,4 +1,228 @@
-h1 {
-    color: blue;
-    font-size: 24px;
+/* Reset für die Standard-Stile */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F4F8;
+    color: #000;
+    padding-top: 80px; 
+}
+
+/* Header-Styling */
+header {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    background-color: #40798C; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 100;
+}
+
+/* Tabelle Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #40798C;
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    background-color: #000;
+}
+
+td:hover {
+    background-color: #FFFFFF00;
+}
+
+td:nth-child(2) {
+    background-color: #FFFFFF00;
+}
+
+th {
+    background-color: #40798C;
+    color: #fff;
+}
+
+.hauptitel {
+
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation und Hamburger-Menü */
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu.show-menu {
+    display: block;
+    transform: scale(1);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+.hamburger-menu {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.hamburger-menu:hover + .menu,
+.menu:hover {
+    display: block;
+    transform: scale(1);
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #40798C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #40798C;
+}
+
+/* Footer-Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #40798C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 100;
+}
+
+/* Hauptinhalt-Styling */
+main {
+    padding-bottom: 80px; /* Abstand zum Footer */
+}
+
+/* Video und Text Styling */
+#Video_YB {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#Video_YB {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text_container {
+    padding: 30px;
+    column-count: 2;
+    column-gap: 40px;
+    column-fill: balance;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_container p {
+    margin: 0 0 1em;
+    vertical-align: top; 
+    break-after: avoid; 
+    margin: 0 0 1em; 
+    text-align: justify; 
+    hyphens: auto; 
+}
+
+@media screen and (max-width: 750px) {
+    .text_container {
+        column-count: 1;
+    }
+}
+
+
+
+
+

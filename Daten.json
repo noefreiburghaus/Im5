@@ -1,0 +1,50 @@
+[
+    {
+        
+        "Gruendungsjahr": "1898",
+        "Meistertitel": "16",
+        "Cupsiege": "8",
+        "Liga": "Super League",
+        "Stadion": "Wankdorf Stadion",
+        "Stadionkapazitaet": "32000",
+        "Zuschauerschnitt": "29097",
+        "Vereinsfarben": "Gelb, Schwarz",
+        "Kaderwert": "58,3 Mio"
+    },
+    {
+        
+        "Gruendungsjahr": "1931",
+        "Meistertitel": "19",
+        "Cupsiege": "3",
+        "Liga": "National League",
+        "Stadion": "Postfinance Arena",
+        "Stadionkapazitaet": "17031",
+        "Zuschauerschnitt": "14750",
+        "Vereinsfarben": "Schwarz, Gelb, Rot",
+        "Kaderwert": "3,2 Mio"
+    },
+    {
+        
+        "Gruendungsjahr": "1896",
+        "Meistertitel": "13",
+        "Cupsiege": "15",
+        "Liga": "Super League",
+        "Stadion": "Letzigrund",
+        "Stadionkapazitaet": "26104",
+        "Zuschauerschnitt": "15400",
+        "Vereinsfarben": "Blau, Weiss",
+        "Kaderwert": "18.8 Mio"
+    },
+    {
+        
+        "Gruendungsjahr": "1982",
+        "Meistertitel": "9",
+        "Cupsiege": "3",
+        "Liga": "National League",
+        "Stadion": "Swisslife Arena",
+        "Stadionkapazitaet": "12000",
+        "Zuschauerschnitt": "11546",
+        "Vereinsfarben": "Blau, Weiss, Rot",
+        "Kaderwert": "4,3 Mio"
+    }
+]

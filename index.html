@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Meine Webseite</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vereins Vergleicher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hallo Zusammen!</h1>
-    <p>Hier sind einige Informationen.</p>
+    <header>
+        <a class="hauptitel" href="index.html">
+            <h1>Vereins Vergleicher</h1>
+        </a>
+        <nav class="menu" onmouseleave="closeMenu()">
+            <ul>
+                <li><a href="yb.html">BSC YB</a></li>
+                <li><a href="scb.html">SCB</a></li>
+                
+            </ul>
+        </nav>
+        <div class="hamburger-menu" onmouseover="openMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>BSC YB</th>
+                    <th></th>
+                    <th>SC Bern</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tabelle Zeilen und Zellen -->
+            </tbody>
+        </table>
+
+        <div class="button-container">
+            <button id="colorButton">Lösung</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; Noé Freiburghaus</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
